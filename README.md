@@ -6,12 +6,12 @@ A basic language to learn recursive decent parsing. It doesn't support command l
 
 # Grammar
 
-Expression := Term + Expression
-Expression := Term - Expression
-Expression := Term
-Term := Term \* Factor
-Term := Term / Factor
-Term := Factor
-Term := Identifier
-Term := [0-9]+
-Identifier := [a-zA-Z0-9]+ // must start with letter
+Expression := Term + Expression<br>
+Expression := Term - Expression<br>
+Expression := Term<br>
+Term := Term \* Factor<br>
+Term := Term / Factor<br>
+Term := Factor<br>
+Term := Identifier<br>
+Term := [0-9]+<br>
+Identifier := [a-zA-Z0-9]+ // must start with letter<br>
